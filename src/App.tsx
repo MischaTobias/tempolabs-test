@@ -6,7 +6,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/component/:id" element={<ComponentDetails />} />
+        {/* <Route path="/component/:id" element={<ComponentDetails />} /> */}
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </Router>
